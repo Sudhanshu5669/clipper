@@ -1,0 +1,12 @@
+---
+name: stream-highlight-clips
+description: Turn a long Twitch VOD or other selected video into grounded vertical highlights for Instagram Reels, YouTube Shorts, or a creator clipping campaign. Use for transcript-first scouting, visual-only moments, hook selection, and source-footage editing.
+---
+
+# Stream highlight clips
+
+1. **Choose the source.** If the user hasn't already selected one, ask which video to clip. Offer relevant local videos by name, or take a path or direct VOD URL. Resolve channel links to a specific VOD and reuse the matching local media. Record the source URL, duration, video dimensions, audio offset, and destination. Keep spoiler-sensitive scene details, candidate hooks, and thumbnails out of the conversation unless requested.
+2. **Check campaign rules.** When a campaign applies, read its official brief and active submission listing before editing. Follow the stricter requirement while any conflict is unresolved. For the Lauren Hamden campaign, read [the campaign checklist](references/reach-lauren-hamden.md). Use only the selected source's real video and audio for campaign edits. Use other creators' clips solely for research.
+3. **Scout three ways.** Read [the selection and editing playbook](references/playbook.md). Check native source captions first. Fall back to high-accuracy local STT. Independently scout the entire timeline visually and flag conspicuous audio changes. Review the union of candidates against the original footage. Transcript silence or low confidence must never veto a visual candidate.
+4. **Require evidence.** For each shortlisted moment, write one sentence stating what makes the moment worth sharing, and record exact source timestamps for the trigger, reaction, and payoff. Record what is visible in the opening frame, what question the opening creates, and where the clip answers it. Apply the playbook's pass/fail tests and score. Generate two truthful starts for finalists, watch both openings without sound, and pick the one with the clearest promise. If the source provides no strong eligible moment, report that and avoid a filler export.
+5. **Deliver the edit.** By default, export one reviewed 1080×1920 H.264/AAC MP4 to the project's `clips/` directory, plus concise upload copy and any required tags. Preserve the source, work locally, and verify the first frame, payoff, crop, audio, captions, and campaign eligibility. Hand back the actual file. Posting or submitting takes separate authorization.
